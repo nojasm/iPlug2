@@ -386,7 +386,7 @@ public:
   
   /** Hit test the control. Override this method if you want the control to be hit only if a visible part of it is hit, or whatever.
    * @param x The X coordinate within the control to test 
-   * @param y The y coordinate within the control to test
+   * @param y The Y coordinate within the control to test
    * @return \c Return true if the control was hit. */
   virtual bool IsHit(float x, float y) const { return mTargetRECT.Contains(x, y); }
 

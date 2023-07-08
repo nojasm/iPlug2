@@ -116,7 +116,7 @@ public:
   bool GetRenderingOffline() const { return mRenderingOffline; };
 
 #pragma mark -
-  /** @return The number of samples elapsed since start of project timeline. */
+  /** @return The number of samples elapsed since start of project timeline or -1 on failure */
   double GetSamplePos() const { return mTimeInfo.mSamplePos; }
 
   /** @return The tempo in beats per minute */

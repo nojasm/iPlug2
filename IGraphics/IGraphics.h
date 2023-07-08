@@ -1310,7 +1310,7 @@ public:
    * @param pControl A pointer to an IControl to attach.
    * @param ctrlTag An integer tag that you can use to identify the control
    * @param group A CString that you can use to address controlled by group
-   * @return The index of the control (and the number of controls in the stack) */
+   * @return The attached control or a nullptr on failure */
   IControl* AttachControl(IControl* pControl, int ctrlTag = kNoTag, const char* group = "");
 
   /** Get the control at a certain index in the control stack

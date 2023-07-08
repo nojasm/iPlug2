@@ -235,8 +235,8 @@ public:
   int NVals() const { return (int) mVals.size(); }
 
   /** Check to see which of the control's values relates to this x and y coordinate
-   * @param x x coordinate to check
-   * @param y x coordinate to check
+   * @param x The X coordinate to check
+   * @param y The Y coordinate to check
    * @return An integer specifying which value matches the x, y coordinates, or kNoValIdx if the position is not linked to a value. */
   virtual int GetValIdxForPos(float x, float y) const { return mVals.size() == 1 ? 0 : kNoValIdx; }
   

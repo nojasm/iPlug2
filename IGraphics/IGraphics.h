@@ -1560,7 +1560,7 @@ public:
   /** [AAX only] This can be called by the ProTools API class (e.g. IPlugAAX) in order to ascertain the parameter linked to the control under the mouse.
    * The purpose is to facillitate ProTool's special contextual menus (for configuring parameter automation)
    * @param x The X coordinate to check
-   * @param y The Y coordinateto check
+   * @param y The Y coordinate to check
    * @return An integer representing the parameter index that was found (or -1 if not found) */
   int GetParamIdxForPTAutomation(float x, float y);
 
